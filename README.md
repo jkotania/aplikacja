@@ -1,3 +1,3 @@
-# portfolio
+# Aplikacja
 
 A new Flutter project.
