@@ -14,8 +14,7 @@ class OutlierPage extends StatelessWidget {
         title: const Text('Liczba odstająca'),
       ),
       body: BlocConsumer<OutlierBloc, OutlierState>(
-        listener: (context, state) {
-        },
+        listener: (context, state) {},
         builder: (context, state) {
           if (state is FoundOutlierState) {
             return Center(
@@ -40,7 +39,7 @@ class OutlierPage extends StatelessWidget {
               ),
             );
           }
-          return Container(); // Domyślny pusty widok dla innych stanów
+          return Container();
         },
       ),
     );
